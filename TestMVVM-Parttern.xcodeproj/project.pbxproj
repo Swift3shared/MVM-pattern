@@ -7,21 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B94BC06A1DFCF1A00074F8C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94BC0691DFCF1A00074F8C8 /* AppDelegate.swift */; };
-		B94BC06C1DFCF1A00074F8C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94BC06B1DFCF1A00074F8C8 /* ViewController.swift */; };
-		B94BC06F1DFCF1A00074F8C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B94BC06D1DFCF1A00074F8C8 /* Main.storyboard */; };
-		B94BC0711DFCF1A00074F8C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B94BC0701DFCF1A00074F8C8 /* Assets.xcassets */; };
-		B94BC0741DFCF1A00074F8C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B94BC0721DFCF1A00074F8C8 /* LaunchScreen.storyboard */; };
+		B94BC0981DFCF58D0074F8C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B94BC0901DFCF58D0074F8C8 /* Assets.xcassets */; };
+		B94BC09A1DFCF58D0074F8C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94BC0941DFCF58D0074F8C8 /* AppDelegate.swift */; };
+		B94BC09D1DFCF58D0074F8C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B94BC0971DFCF58D0074F8C8 /* Main.storyboard */; };
+		B94BC09F1DFCF5B20074F8C8 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94BC09E1DFCF5B20074F8C8 /* Person.swift */; };
+		B94BC0A11DFCF5F10074F8C8 /* PersonContext .swift in Sources */ = {isa = PBXBuildFile; fileRef = B94BC0A01DFCF5F10074F8C8 /* PersonContext .swift */; };
+		B94BC0A31DFCF7290074F8C8 /* AddPersonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94BC0A21DFCF7290074F8C8 /* AddPersonViewModel.swift */; };
+		B94BC0A51DFCFE010074F8C8 /* ListPersonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94BC0A41DFCFE010074F8C8 /* ListPersonViewModel.swift */; };
+		B94BC0A71DFD01280074F8C8 /* ListPersonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94BC0A61DFD01280074F8C8 /* ListPersonVC.swift */; };
+		B94BC0AD1DFD07AE0074F8C8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B94BC0AC1DFD07AE0074F8C8 /* Info.plist */; };
+		B94BC0B11DFD08600074F8C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B94BC0AF1DFD08600074F8C8 /* Assets.xcassets */; };
+		B94BC0B21DFD08600074F8C8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B94BC0B01DFD08600074F8C8 /* Info.plist */; };
+		B9772EE91DFD114F0074E2C9 /* AddPersonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9772EE81DFD114F0074E2C9 /* AddPersonVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B94BC0661DFCF1A00074F8C8 /* TestMVVM-Parttern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestMVVM-Parttern.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B94BC0691DFCF1A00074F8C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B94BC06B1DFCF1A00074F8C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B94BC06E1DFCF1A00074F8C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B94BC0701DFCF1A00074F8C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B94BC0731DFCF1A00074F8C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B94BC0751DFCF1A00074F8C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B94BC0901DFCF58D0074F8C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B94BC0941DFCF58D0074F8C8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B94BC0971DFCF58D0074F8C8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B94BC09E1DFCF5B20074F8C8 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		B94BC0A01DFCF5F10074F8C8 /* PersonContext .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PersonContext .swift"; sourceTree = "<group>"; };
+		B94BC0A21DFCF7290074F8C8 /* AddPersonViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPersonViewModel.swift; sourceTree = "<group>"; };
+		B94BC0A41DFCFE010074F8C8 /* ListPersonViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListPersonViewModel.swift; sourceTree = "<group>"; };
+		B94BC0A61DFD01280074F8C8 /* ListPersonVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListPersonVC.swift; sourceTree = "<group>"; };
+		B94BC0AC1DFD07AE0074F8C8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B94BC0AF1DFD08600074F8C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B94BC0B01DFD08600074F8C8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9772EE81DFD114F0074E2C9 /* AddPersonVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPersonVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +67,68 @@
 		B94BC0681DFCF1A00074F8C8 /* TestMVVM-Parttern */ = {
 			isa = PBXGroup;
 			children = (
-				B94BC0691DFCF1A00074F8C8 /* AppDelegate.swift */,
-				B94BC06B1DFCF1A00074F8C8 /* ViewController.swift */,
-				B94BC06D1DFCF1A00074F8C8 /* Main.storyboard */,
-				B94BC0701DFCF1A00074F8C8 /* Assets.xcassets */,
-				B94BC0721DFCF1A00074F8C8 /* LaunchScreen.storyboard */,
-				B94BC0751DFCF1A00074F8C8 /* Info.plist */,
+				B94BC08D1DFCF58D0074F8C8 /* Model */,
+				B94BC08E1DFCF58D0074F8C8 /* ModelView */,
+				B94BC08F1DFCF58D0074F8C8 /* Other */,
+				B94BC0921DFCF58D0074F8C8 /* View */,
 			);
 			path = "TestMVVM-Parttern";
+			sourceTree = "<group>";
+		};
+		B94BC08D1DFCF58D0074F8C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B94BC09E1DFCF5B20074F8C8 /* Person.swift */,
+				B94BC0A01DFCF5F10074F8C8 /* PersonContext .swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B94BC08E1DFCF58D0074F8C8 /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				B94BC0A21DFCF7290074F8C8 /* AddPersonViewModel.swift */,
+				B94BC0A41DFCFE010074F8C8 /* ListPersonViewModel.swift */,
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
+		B94BC08F1DFCF58D0074F8C8 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				B94BC0AC1DFD07AE0074F8C8 /* Info.plist */,
+				B94BC0AE1DFD08600074F8C8 /* Other */,
+				B94BC0901DFCF58D0074F8C8 /* Assets.xcassets */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		B94BC0921DFCF58D0074F8C8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B94BC0931DFCF58D0074F8C8 /* Controller */,
+				B94BC0971DFCF58D0074F8C8 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B94BC0931DFCF58D0074F8C8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B94BC0941DFCF58D0074F8C8 /* AppDelegate.swift */,
+				B94BC0A61DFD01280074F8C8 /* ListPersonVC.swift */,
+				B9772EE81DFD114F0074E2C9 /* AddPersonVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B94BC0AE1DFD08600074F8C8 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				B94BC0AF1DFD08600074F8C8 /* Assets.xcassets */,
+				B94BC0B01DFD08600074F8C8 /* Info.plist */,
+			);
+			name = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +190,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B94BC0741DFCF1A00074F8C8 /* LaunchScreen.storyboard in Resources */,
-				B94BC0711DFCF1A00074F8C8 /* Assets.xcassets in Resources */,
-				B94BC06F1DFCF1A00074F8C8 /* Main.storyboard in Resources */,
+				B94BC0981DFCF58D0074F8C8 /* Assets.xcassets in Resources */,
+				B94BC09D1DFCF58D0074F8C8 /* Main.storyboard in Resources */,
+				B94BC0B11DFD08600074F8C8 /* Assets.xcassets in Resources */,
+				B94BC0B21DFD08600074F8C8 /* Info.plist in Resources */,
+				B94BC0AD1DFD07AE0074F8C8 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,31 +205,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B94BC06C1DFCF1A00074F8C8 /* ViewController.swift in Sources */,
-				B94BC06A1DFCF1A00074F8C8 /* AppDelegate.swift in Sources */,
+				B94BC0A71DFD01280074F8C8 /* ListPersonVC.swift in Sources */,
+				B9772EE91DFD114F0074E2C9 /* AddPersonVC.swift in Sources */,
+				B94BC09F1DFCF5B20074F8C8 /* Person.swift in Sources */,
+				B94BC0A31DFCF7290074F8C8 /* AddPersonViewModel.swift in Sources */,
+				B94BC0A51DFCFE010074F8C8 /* ListPersonViewModel.swift in Sources */,
+				B94BC09A1DFCF58D0074F8C8 /* AppDelegate.swift in Sources */,
+				B94BC0A11DFCF5F10074F8C8 /* PersonContext .swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		B94BC06D1DFCF1A00074F8C8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B94BC06E1DFCF1A00074F8C8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B94BC0721DFCF1A00074F8C8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B94BC0731DFCF1A00074F8C8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B94BC0761DFCF1A00074F8C8 /* Debug */ = {
@@ -247,6 +302,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INFOPLIST_FILE[sdk=*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
@@ -260,7 +316,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "TestMVVM-Parttern/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/TestMVVM-Parttern/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.channy.origin.TestMVVM-Parttern";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,7 +328,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "TestMVVM-Parttern/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/TestMVVM-Parttern/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.channy.origin.TestMVVM-Parttern";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +355,7 @@
 				B94BC07A1DFCF1A00074F8C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
